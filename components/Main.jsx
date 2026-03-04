@@ -69,7 +69,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
-          <p>Check out my pass projects and working experiences below, or you can <a href="/static/DavidWu.4367a779.pdf" target="_blank">download my resume (PDF)</a>. </p>
+          <p>Check out my pass projects and working experiences below, or you can <a href="/static/David Wu Resume.pdf" target="_blank">download my resume (PDF)</a>. </p>
           <h4>Projects</h4>
           <table>
             <tbody>
@@ -194,19 +194,7 @@ class Main extends React.Component {
           </form>
 
           <hr />
-
-          <h3>Direct Contact</h3>
-
-          <p>
-            Prefer direct communication? Reach me at:
-            <br />
-            <strong>
-              <a href="mailto:DavidClarke1207@gmail.com">
-                DavidClarke1207@gmail.com
-              </a>
-            </strong>
-          </p>
-
+          
           <ul className="icons">
             <li>
               <a
