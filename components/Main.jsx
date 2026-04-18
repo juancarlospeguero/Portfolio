@@ -62,53 +62,78 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
-          <p>Hi there, I&#x27;m David and welcome to my site. I&#x27;m a full-stack web developer based in West LA. I’ve worked on various projects such as cross-platform mobile application, full-stack web application, and .NET web application. If you want to learn more about my previous projects, please check out my <a href="#work" onClick={(e) => {e.preventDefault(); this.props.onOpenArticle('work');}}>awesome work</a>. </p>
+          <p>
+            Hi, I&#x27;m Mark Dyvan Aquino, a Full Stack Developer specializing in React and .NET Core, building scalable web applications and SaaS platforms.<br /> 
+            I develop high-performance backend systems, RESTful APIs, and modern frontend interfaces, with experience in SQL Server and cloud solutions on Microsoft Azure.<br />
+            Explore <a href="#work" onClick={(e) => {e.preventDefault(); this.props.onOpenArticle('work');}}>my work</a> to see what I’ve built.
+          </p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
-          <p>Check out my pass projects and working experiences below, or you can <a href="/static/David Wu Resume.pdf" target="_blank">download my resume (PDF)</a>. </p>
-          <h4>Projects</h4>
+          <p>Check out my pass projects and working experiences below, or you can <a href="/static/JUAN_CARLOS_PEGUERO.pdf" target="_blank">download my resume (PDF)</a>. </p>
+          <h3>Projects</h3>
           <table>
             <tbody>
               <tr>
                 <td>
-                  <h4>
-                    <a href="https://poolpal.wudavid.com/">PoolPal</a>
-                  </h4>
+                  <h4>AI AUTOMATION & RAG ASSISTANT SYSTEM</h4>
                 </td>
-                <td>Cross-platform mobile application for easily arranging carpool rides. Generates the quickest and easiest route to a final destination while allowing the driver to pick up all the passengers along the way.</td>
-                <td>​ionic Framework, Firebase, HTML, CSS, JavaScript, Google Maps API</td>
+                <td>Built intelligent automation pipelines using OpenAI APIs and developed a Retrieval-Augmented Generation (RAG) assistant with persistent memory. Enabled contextual task automation, structured responses, and scalable AI-driven workflows.</td>
+                <td>OpenAI API, Python, JavaScript, Supabase, Full-Stack Development</td>
               </tr>
               <tr>
                 <td>
-                  <h4>NEST</h4>
+                  <h4>EARN PRACTICE MANAGER</h4>
                 </td>
-                <td>Award-winning senior design project developing an Airline Operations Center System. Provides a front-end interface for a real-world control center in monitoring 100+ UAVs at the same time.</td>
-                <td>C#, ASP.NET framework, REST API, Microsoft SQL</td>
+                <td>Developed a scalable web application for managing clients, staff, workflows, and documents. Implemented role-based access control and optimized API/database performance for improved responsiveness and scalability.</td>
+                <td>ASP.NET Core, React, TypeScript, PostgreSQL, REST API</td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>ENTERPRISE HRMS SYSTEM</h4>
+                </td>
+                <td>Built a full-stack HR platform covering employee lifecycle processes including hiring, payroll, and internal operations. Developed secure backend services and ensured data integrity through efficient database design.</td>
+                <td>.NET Core, C#, ASP.NET Core, Microsoft SQL Server, REST API</td>
               </tr>
             </tbody>
           </table>
-          <h4>Working Experiences</h4>
+          <h3>Working Experiences</h3>
           <table>
             <tbody>
               <tr>
                 <td>
-                  <h4>Freelance Web Developer</h4>
-                  <i>Sep. 2017 - Present</i>
+                  <h4>Daclan Accountant Ltd</h4>
+                  <i>Dec. 2024 - Present</i>
                 </td>
-                <td>Developed and deployed <a href="http://st_life.singtaola.com">st_life.singtaola.com</a> on a remote server for Sing Tao Daily Newspapers using the MERN stack. Includes a control center for their staff to manage and monitor contents on the main site. </td>
-                <td>HTML, CSS, MERN (MongoDB, Express.js, React, and Node.js) stack, IaaS (Linux Ubuntu Server deployed on DigitalOcean)</td>
+                <td>Developed full-stack applications using React, .NET Core, and SQL Server, while designing and implementing RESTful APIs, building scalable SaaS solutions with secure authentication and RBAC, and optimizing database queries to improve performance. </td>
+                <td>React, .NET Core, ASP.NET, SQL Server, Node.js, Azure, Docker, Git, CI/CD, RESTful APIs</td>
               </tr>
               <tr>
                 <td>
-                  <h4>Princess Cruises</h4>
-                  <i>Jun. 2016 - Aug. 2016</i>
+                  <h4>TerraBarn Inc</h4>
+                  <i>Aug. 2023 - Present</i>
                 </td>
-                <td>Collaborated with the financial support team in developing offline functionality to an online web application.</td>
-                <td>​HTML, CSS, JavaScript, ServiceWorker, IndexedDB, Oracle Application Express (APEX), Oracle Database Express.</td>
+                <td>Developed scalable applications using React, ASP.NET Core, and Azure, designed and implemented RESTful APIs, and built cloud-based solutions. </td>
+                <td>​React, ASP.NET Core, Azure, RESTful APIs, PostgreSQL, Docker, Kubernetes, CI/CD</td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Hi-Precision Diagnostics</h4>
+                  <i>Nov. 2022 - Mar. 2024</i>
+                </td>
+                <td>Built enterprise applications using .NET Core, React, and SQL Server, developed and maintained RESTful APIs, and optimized database queries. </td>
+                <td>.NET Core, React, SQL Server, ASP.NET Core, RESTful APIs, Docker, Kubernetes, Git, Azure</td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Freelance</h4>
+                  <i>Apr. 2019 - Present</i>
+                </td>
+                <td>Developed web applications using React, Node.js, and .NET, built custom systems including POS, dashboards, and business tools, and created automation solutions using Python. </td>
+                <td>React, Node.js, .NET, Python, JavaScript, HTML5, CSS3, AWS, Firebase, Docker, Git</td>
               </tr>
             </tbody>
           </table>
@@ -118,18 +143,19 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
-          <p>I am a Senior Full-Stack Software Engineer with over 7 years of experience building scalable, production-grade systems. I specialize in architecting modern web applications using React, Node.js, and AWS, with a strong focus on distributed systems, performance optimization, and secure cloud-native infrastructure.</p>
-          <p>I have designed microservices architectures, built high-traffic APIs, implemented DevSecOps-driven CI/CD pipelines, and optimized both SQL and NoSQL databases for reliability and speed. My approach goes beyond feature delivery — I build systems that are secure, maintainable, and engineered to scale.</p>
-          <p>I take ownership across the full lifecycle, from architecture and development to deployment and operational stability. I value clean design, automation, and long-term engineering excellence.</p>
+          <p>I’m a Full Stack Engineer with 7+ years of experience building scalable web applications and SaaS platforms. </p>
+          <p>My core stack includes .NET Core, ASP.NET Core, React, SQL Server, and Microsoft Azure. I specialize in backend development with .NET Core and ASP.NET Core, designing high-performance APIs and systems that handle real-world production workloads.</p>
+          <p>On the frontend, I work with React to build clean, responsive interfaces that integrate seamlessly with complex backend systems. My experience includes working with SQL Server, optimizing database performance, and deploying cloud-based solutions on Microsoft Azure.</p>
+          <p>I focus on building systems that are not only functional, but reliable, maintainable, and designed to scale. I have improved system performance and reduced API response times by up to 30 percent in production environments.</p>
+          
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === "contact" ? "active" : ""} ${this.props.articleTimeout ? "timeout" : ""}`} style={{ display: "none" }}>
           <h2 className="major">Build Systems That Scale.</h2>
-
+          
           <p style={{ marginBottom: "1.5rem" }}>
-            I design and lead the development of production-grade systems used in real-world environments. <br />
-            From architecture and microservices to cloud infrastructure and CI/CD, I build software engineered for reliability, performance, and long-term scale.
+            I build scalable, production-ready systems using .NET Core, React, and Microsoft Azure. I have improved API response times by up to 30 percent and built systems capable of handling high-traffic workloads and large-scale data processing.
           </p>
 
           <p style={{ fontWeight: 600 }}>
@@ -198,7 +224,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://www.linkedin.com/in/davidwaynewu"
+                href="https://www.linkedin.com/in/mark-dyvan-aquino-97a2bb3b8/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: "1.6rem" }}
@@ -209,7 +235,7 @@ class Main extends React.Component {
 
             <li>
               <a
-                href="https://github.com/davidwwu"
+                href="https://github.com/markdyvanaquino"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: "1.6rem" }}

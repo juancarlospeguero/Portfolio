@@ -52,7 +52,7 @@ class IndexPage extends Component {
     return (
       <div className={`body ${loading} ${isArticleVisible ? "is-article-visible" : ""}`}>
         <Head>
-          <title>David Wu | Senior Full-Stack Engineer</title>
+          <title>Mark Dyvan Aquino | Senior Full-Stack Engineer</title>
 
           {/* Google Font */}
           <link
@@ -60,7 +60,7 @@ class IndexPage extends Component {
             rel="stylesheet"
           />
 
-          {/* Font Awesome (아이콘 문제 해결) */}
+          {/* Font Awesome */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"

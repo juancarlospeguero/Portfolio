@@ -11,7 +11,6 @@ export default async function handler(req, res) {
   try {
     const { name, email, company, message } = req.body ?? {};
 
-    // 기본 유효성 검사
     if (!name || !email || !message) {
       return res.status(400).json({
         success: false,
@@ -35,7 +34,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: "onboarding@resend.dev", // 반드시 도메인 인증 후 교체
-        to: "davidclarke1207@gmail.com",
+        to: " juancarlospeguerousa@gmail.com",
         subject: `New Inquiry from ${escapeHtml(name)}`,
         reply_to: email,
         html: `
