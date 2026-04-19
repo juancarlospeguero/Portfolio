@@ -63,7 +63,7 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
           <p>
-            Hi, I&#x27;m Mark Dyvan Aquino, a Full Stack Developer specializing in React and .NET Core, building scalable web applications and SaaS platforms.<br /> 
+            Hi, I&#x27;m Juan Carlos Peguero, a Full Stack Developer specializing in React and .NET Core, building scalable web applications and SaaS platforms.<br /> 
             I develop high-performance backend systems, RESTful APIs, and modern frontend interfaces, with experience in SQL Server and cloud solutions on Microsoft Azure.<br />
             Explore <a href="#work" onClick={(e) => {e.preventDefault(); this.props.onOpenArticle('work');}}>my work</a> to see what I’ve built.
           </p>
@@ -224,7 +224,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://www.linkedin.com/in/mark-dyvan-aquino-97a2bb3b8/"
+                href="https://www.linkedin.com/in/juan-carlos-peguero"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: "1.6rem" }}
@@ -235,7 +235,7 @@ class Main extends React.Component {
 
             <li>
               <a
-                href="https://github.com/markdyvanaquino"
+                href="https://github.com/juancarlospeguero"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: "1.6rem" }}

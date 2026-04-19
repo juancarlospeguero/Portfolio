@@ -52,7 +52,7 @@ class IndexPage extends Component {
     return (
       <div className={`body ${loading} ${isArticleVisible ? "is-article-visible" : ""}`}>
         <Head>
-          <title>Mark Dyvan Aquino | Senior Full-Stack Engineer</title>
+          <title>Juan Carlos Peguero | Senior Full-Stack Engineer</title>
 
           {/* Google Font */}
           <link
